@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
-ion-icon {
-  font-size: 64px;
-  position: absolute;
-top: 90%
-}
-
 pre, span, div, p, h1 {
   background-color: transparent;
 }
