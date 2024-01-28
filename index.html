@@ -46,13 +46,13 @@
         showCursor: true
       });
 
-      var lines = ["dsc.gg/theplatypus", "@pinkyshere", "dsc.gg/perryslair"];
+      var lines = ["dsc.gg/theplatypus", "@pinkyshere", "dsc.gg/perryslair, dsc.gg/theplatypus", "@pinkyshere", "dsc.gg/perryslair"];
       for (var x = 0;x < lines.length;x++)
         $("#marquee").append(`${lines[x]}${(x < lines.length - 1? ' <img class="emoji" src="/assets/images/seperator.png"> ' : '')}`);
 
       $("#marquee").marquee({
         duration: 7500,
-        gap: 0,
+        gap: 100,
         delayBeforeStart: 500,
         direction: 'left',
       });
