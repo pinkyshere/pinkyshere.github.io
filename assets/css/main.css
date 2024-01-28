@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+ion-icon {
+  font-size: 128px;
+}
+
 pre, span, div, p, h1 {
   background-color: transparent;
 }
@@ -63,8 +67,4 @@ pre {
 .bottombar {
   top: auto;
   bottom: 5%;
-}
-
-.ion-icon {
-  font-size: 128px;
 }
