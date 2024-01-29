@@ -16,6 +16,9 @@ CTE.canvas.classList.add("unclicked");
 // Make the elements
 CTE.text = document.createElement("div");
 CTE.text.className = "
+CTE.text.className = "overlaytext";
+ CTE.text.id = "CTEText";
+
 const isMobile = function ( ){
 const match = window.matchMedia(' (pointer: coarse) ');
 return (match && match. matches) ;
