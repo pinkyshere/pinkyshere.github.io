@@ -16,8 +16,7 @@ CTE.canvas.classList.add("unclicked");
 // Make the elements
 CTE.text = document.createElement("div");
 CTE.text.className = "overlaytext";
- CTE.text.id = "CTEText";
-CTE.text.className = "
+CTE.text.id = "CTEText";
 CTE.text.innerText = "click to enter";
 
 // Add the overlay to the actual site
