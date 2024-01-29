@@ -15,18 +15,9 @@ CTE.canvas.classList.add("unclicked");
 
 // Make the elements
 CTE.text = document.createElement("div");
-CTE.text.className = "
 CTE.text.className = "overlaytext";
  CTE.text.id = "CTEText";
-
-const isMobile = function ( ){
-const match = window.matchMedia(' (pointer: coarse) ');
-return (match && match. matches) ;
-}
-
-
-console.log('${isMobile() ? 'Mobile' : 'not mobile'})
-if (ismobile) == CTE.text.innerText = "click to enter (turn screen)"
+CTE.text.className = "
 CTE.text.innerText = "click to enter";
 
 // Add the overlay to the actual site
